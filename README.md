@@ -1,4 +1,4 @@
-<img width="137" height="168" alt="image" src="https://github.com/user-attachments/assets/7bcab26a-9b93-4980-9d8a-d993ccbca145" /># SYN flood network attack analysis
+# SYN flood network attack analysis
 
 ## 📑 Table of contents
 
@@ -43,7 +43,5 @@ Berikut adalah log TCP dan HTTP yang direkam menggunakan Wireshark digunakan seb
 |54|3.49316|198.51.100.30|192.0.2.1|TCP|54770->443 [ACK Seq=1 Win=5792 Len=0...|
 |...|...|...|...|...|...|
 |73|6.230548|192.0.2.1|198.51.100.16|TCP|443->32641 [RST, ACK] Seq=0 Win-5792 Len=120...|
-
-
 
 ---
