@@ -68,6 +68,8 @@ Tujuan analisis meliputi:
 |---|
 |Dalam kondisi normal, koneksi ke server web dimulai melalui proses TCP three-way handshake. Proses ini melibatkan pengiriman paket SYN dari client, balasan SYN-ACK dari server, dan ACK terakhir untuk menyelesaikan koneksi. Pada serangan SYN Flood, pelaku membanjiri server dengan paket SYN tanpa pernah menyelesaikan proses handshake. Server tetap merespons setiap permintaan dan mengalokasikan resource untuk koneksi yang tidak pernah selesai. Kondisi ini membuat resource server cepat habis dan tidak tersedia bagi pengguna yang sah. Log Wireshark menunjukkan server web kewalahan menghadapi tingginya jumlah permintaan SYN dan gagal merespons koneksi normal. Situasi ini menyebabkan koneksi tidak pernah terbentuk dengan sempurna, sehingga pengunjung website dan karyawan perusahaan mengalami connection timeout saat mencoba mengakses situs.|
 
+---
+
 ## 🏁 Conclusion <a name="conclusion">
 
 Hasil analisis lalu lintas jaringan menunjukkan bahwa gangguan akses website dipicu oleh serangan Denial of Service dengan metode SYN Flood. Server web dibanjiri permintaan SYN dalam jumlah besar hingga proses pembentukan koneksi TCP terganggu. Kondisi ini membuat resource server cepat habis dan tidak mampu melayani koneksi dari pengguna yang sah.
