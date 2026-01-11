@@ -1,4 +1,4 @@
-# SYN flood network attack analysis
+# SYN Flood network attack analysis
 
 ## 📑 Table of contents
 
