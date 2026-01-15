@@ -1,4 +1,4 @@
-# SYN-flood-attack-analysis-on-web-server
+# SYN flood attack analysis on web server
 
 ## 📑 Table of contents
 
